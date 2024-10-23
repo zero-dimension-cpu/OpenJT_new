@@ -60,5 +60,5 @@ function getAccessToken() {
       })
   })
 }
-//export default getResponse;
-module.exports = { getResponse: getResponse, getAccessToken: getAccessToken };
+export default getResponse;
+//module.exports = { getResponse: getResponse, getAccessToken: getAccessToken };
