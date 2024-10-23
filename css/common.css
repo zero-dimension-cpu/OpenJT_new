@@ -1,0 +1,143 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #e1e3e1;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo .img {
+  height: 50px;
+  width: 50px;
+  background: url(../images/logo.png) no-repeat -3px 0;
+  background-size: cover;
+}
+
+.header .logo h2 {
+  margin-left: 5px;
+  color: #ab4900;
+}
+
+.nav {
+  flex: 1;
+}
+
+.nav ul {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul li {
+  padding: 0 20px;
+  height: 100%;
+  line-height: 60px;
+  font-size: 16px;
+}
+
+.nav ul li:hover {
+  border-bottom: 2px solid #ab4900;
+}
+
+.header .search {
+  display: flex;
+}
+
+.header .search input {
+  height: 36px;
+  width: 210px;
+  border: 2px solid#ab4900;
+  border-radius: 10px 0 0 10px;
+}
+
+.header .search span {
+  float: right;
+  height: 40px;
+  width: 40px;
+  border-radius: 0 10px 10px 0;
+  background-color: #ab4900;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.header .user {
+  display: flex;
+  margin: 0 5px;
+}
+
+.header .user input {
+  margin: 0 5px;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.header .user .login {
+  border: 2px solid #ab4900;
+  color: #ab4900;
+  background-color: #fff;
+}
+
+.header .user .signup {
+  color: #fff;
+  background-color: #ab4900;
+}
+
+.intr {
+  margin: 80px auto;
+}
+
+.intr ul li {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  box-shadow: 10px 10px 10px #f5f5f5;
+  border: 2px solid #f5f5f5;
+  border-radius: 25px;
+}
+
+.intr ul li:hover {
+  box-shadow: 20px 20px 20px #f5f5f5e4;
+}
+
+.intr ul li h1 {
+  font-size: 30px;
+  color: #000;
+}
+
+.intr ul li .sum {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.intr ul li .access {
+  margin-top: 20px;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #ab4900;
+  border-radius: 10px;
+  color: #ab4900;
+}
+
+.intr ul li .access:hover {
+  background-color: #ab4900;
+  color: #fff;
+}
